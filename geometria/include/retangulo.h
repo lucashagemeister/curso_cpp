@@ -5,7 +5,7 @@ public:
 	int largura;
 	int comprimento;
 
-	void calculaArea();
+	void calculaEImprimeArea();
 
 };
 

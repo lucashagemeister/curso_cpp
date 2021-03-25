@@ -12,8 +12,7 @@ int main() {
 	cin >> c;
 	Retangulo *r;
 	r = new Retangulo(l, c);
-	cout << "Area do retangulo: ";
-	cout << r->calculaArea() << endl;
+	cout << r->calculaEImprimeArea() << endl;
 	system("PAUSE");
 	return 0;
 }

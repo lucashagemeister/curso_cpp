@@ -1,12 +1,12 @@
 #pragma once
 class Retangulo{
 public:
-	Retangulo(int largura, int comprimento);
+	Retangulo(unsigned int largura, unsigned int comprimento);
 	
-	void setLargura(largura);
+	void setLargura(unsigned int largura);
 	unsigned int getLargura();
 	
-	void setComprimento(comprimento);
+	void setComprimento(unsigned int comprimento);
 	unsigned int getComprimento();
 	
 	void calculaEImprimeArea();

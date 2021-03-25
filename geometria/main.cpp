@@ -10,9 +10,10 @@ int main() {
 	cin >> l;
 	cout << "Diga o valor inteiro para  comprimento do retangulo: ";
 	cin >> c;
-	Retangulo *r;
+	Retangulo* r;
 	r = new Retangulo(l, c);
-	cout << r->calculaEImprimeArea() << endl;
+	r->calculaEImprimeArea();
+	cout << endl;
 	system("PAUSE");
 	return 0;
 }
